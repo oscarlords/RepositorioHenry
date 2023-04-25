@@ -1,20 +1,8 @@
-//function sumaTres(x) {
- //   console.log(x+3);
-//}
-
-//sumaTres(5);
-
-//PRIMERO
-function sumaTres(x) {
-    return x + 3;
-}
-
-//SEGUNDO
-var sumaTres = function (x) {
-    return x + 3;
-};
-
-//TERCERO
-var sumaTres = (x) => {
-    return x + 3;
-};
+function Longitud(Palabra1,Palabra2) {
+    if (typeof Palabra1 === 'string' || typeof Palabra2 === 'string' || Palabra1.length === Palabra2.length) {
+      console.log ("Tienen la misma longitud");
+    } else {
+      console.log ("No tienen la misma longitud");
+    }
+  }
+  Longitud('Maria', 'Lina');
